@@ -1,0 +1,96 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body, html{
+
+    background-color: rgb(195, 148, 131);
+     display: grid; 
+    height: 100%;
+    place-items: center;
+
+
+}
+
+h4{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.4;
+    text-transform:capitalize;
+}
+
+.container{
+
+    width: 800px;
+    background-color: tan ;
+    padding: 25px 30px ;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 20px rgb(174, 16, 53);
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+
+h5{
+    font-size: 1.1rem;
+    margin-top: 0.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    line-height: 0.8;
+    background-color: cornflowerblue;
+    padding: 10px 0 ;
+    width: 100%;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    
+}
+
+form input{
+    margin: 10px 0 ;
+    outline: none;
+    border: 1px solid fff;
+}
+
+form input.box{
+    width: 500px;
+    height: 45px;
+    font-size: 1.2rem;
+    padding: 0 10px;
+}
+
+form input.button{
+    width: 80px;
+    height: 45px;
+    font-size: 1.2rem;
+    color: aliceblue;
+    padding: 2px 2px;
+    background-color: chocolate;
+    cursor: pointer;
+}
+
+.feedback{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.message-content{
+    color: blue;
+}
